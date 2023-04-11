@@ -54,7 +54,10 @@ main {
     margin: 11em auto;
 }
 
-.menu-wrap {    color: var(--primary-color);    }
+.menu-wrap {    
+    color: var(--primary-color);
+    font-size: larger;    
+}
 .menu {
     display: inline-flex;
     gap: 1em;
