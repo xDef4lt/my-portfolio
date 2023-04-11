@@ -6,7 +6,7 @@ body {
 
     display: flex;
     flex-direction: column;
-    gap: 8.em;
+    gap: 8em;
 }
 
 header {
