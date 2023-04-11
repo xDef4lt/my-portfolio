@@ -56,7 +56,7 @@ main {
 
 .menu-wrap {    
     color: var(--primary-color);
-    font-size: larger;    
+    font-size: 23px;    
 }
 .menu {
     display: inline-flex;
