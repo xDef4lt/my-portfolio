@@ -21,7 +21,7 @@ header {
     z-index: 200;
 
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
 }
 
@@ -54,7 +54,11 @@ main {
     margin: 11em auto;
 }
 
-
+.menu-wrap {    color: var(--primary-color);    }
+.menu {
+    display: inline-flex;
+    gap: 1em;
+}
 .background {
     width: 80%;
     height: 500vh;
