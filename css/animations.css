@@ -1,0 +1,22 @@
+.info-container.animate {
+    animation: slideLeft 1.5s;
+}
+.img-container.animate {
+    animation: slideRight 1.5s;
+}
+
+@keyframes slideLeft {
+    from {
+        transform: translateX(-500px);
+    } to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideRight {
+    from {
+        transform: translateX(500px);
+    } to {
+        transform: translateX(0);
+    }
+}

@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    border: 0;
+    outline: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Typo Formal", Arial;
+}
+
+:root {
+    --primary-color: #fff;
+    --secondary-color: #000;
+    --tertiary-color: #919090;
+
+    --primary-theme-color: #50abf7;
+    --secondary-theme-color: #fa4df1;
+
+    --gradient-theme: linear-gradient(to right, var(--secondary-theme-color), var(--primary-theme-color));
+    --gradient-theme-bottom: linear-gradient(to bottom, var(--secondary-theme-color), var(--primary-theme-color));
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+::-webkit-scrollbar-thumb {
+    background: var(--gradient-theme-bottom);
+    border-radius: 5px;
+}
