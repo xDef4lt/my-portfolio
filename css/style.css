@@ -29,6 +29,7 @@ p {
     font-size: max(min(6.3vw, 23px), 18px);
     text-align: justify;
     color: var(--tertiary-color);
+    padding: 10px;
 }
 
 footer {
