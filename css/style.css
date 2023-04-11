@@ -62,7 +62,7 @@ main {
 }
 .menu {
     display: inline-flex;
-    gap: 1em;
+    gap: 2.5em;
 }
 .background {
     width: 80%;
