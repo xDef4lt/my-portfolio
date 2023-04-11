@@ -51,8 +51,8 @@ footer {
 
 main {
     width: 100%;
-    height: 45vh;
     margin: 12em auto;
+    margin-bottom: 3em;
 }
 
 .menu-wrap {    
