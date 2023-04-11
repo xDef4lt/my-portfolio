@@ -26,9 +26,11 @@ header {
 }
 
 p {
-    font-size: max(min(6.3vw, 23px), 18px);
+    font-size: max(min(6.3vw, 23px), 16px);
     text-align: justify;
     color: var(--tertiary-color);
+
+    margin: 4px;
     padding: 10px;
 }
 
