@@ -26,7 +26,7 @@ header {
 }
 
 p {
-    font-size: 23px;
+    font-size: max(min(6.3vw, 23px), 18px);
     text-align: justify;
     color: var(--tertiary-color);
 }
