@@ -2,6 +2,9 @@
     section.introduction {
         flex-direction: column;
     }
+    .menu-wrap {
+        display: none;
+    }
     .info-container > h1, .info-container > h2 {
         text-align: center;
     }

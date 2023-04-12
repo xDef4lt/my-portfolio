@@ -21,16 +21,17 @@
     <title>Arthur Santos</title>
 </head>
 <body>
-    <!-- Efeitos (usar ou não usar?)-->
+    <!-- Efeitos (usar ou não usar?)
         <div class="background"></div>
     <audio src="./audio/music.mp3" autoplay style="display: none;"></audio>
+    -->
     <header>
         <nav class="menu-wrap">
             <ul class="menu">
-                <li class="menu-item">Sobre</li>
-                <li class="menu-item">Conhecimentos</li>
-                <li class="menu-item">Projetos</li>
-                <li class="menu-item">Contatos</li>
+                <li class="menu-item"><a href="#about">Sobre</a></li>
+                <li class="menu-item"><a href="#skills">Conhecimentos</a></li>
+                <li class="menu-item"><a href="#projects">Projetos</a></li>
+                <li class="menu-item"><a href="#contacts">Contatos</a></li>
             </ul>
         </nav>
     </header>
@@ -46,13 +47,15 @@
 
                 <div class="btn-container">
                     <button class="botao-contato btn-gradient">Contato</button>
-                    <a href="https://www.linkedin.com/in/arthur-santos-3b61a8267/"><button class="botao-contato">LinkedIn</button></a>
+                    <a href="https://www.linkedin.com/in/arthur-santos-3b61a8267/">
+                        <button class="botao-contato">LinkedIn</button>
+                    </a>
                 </div>
             </div>
         </section>
     </main>
 
-    <section class="conteudo about">
+    <section class="conteudo" id="about">
         <h2 class="heading">Sobre Mim</h2>
         <p>
             Meu nome é Arthur Santos, fã de video-games e
@@ -65,17 +68,52 @@
         </p>
     </section>
 
-    <section class="conteudo">
+    <section class="conteudo" id="skills">
         <h2 class="heading">Conhecimentos</h2>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit; 
-            Ullam consectetur sint eligendi, voluptatum dicta delectus, 
-            quo quas unde deleniti laborum eius, alias in rem tenetur 
-            ipsa quia ducimus consequatur corrupti?
-        </p>
+        <div class="language">
+            <div class="icon-container">
+                <img alt="svgHtml" class="lang-icon" src="./svgs/html.svg">
+                <h4>html5</h4>
+            </div>
+
+            <div class="icon-container">
+                <img alt="svgCss" class="lang-icon" src="./svgs/css.svg">
+                <h4>css3</h4>
+            </div>
+
+            <div class="icon-container">
+                <img alt="svgJs" class="lang-icon" src="./svgs/js.svg">
+                <h4>javascript</h4>
+            </div>
+
+            <div class="icon-container">
+                <img alt="svgTs" class="lang-icon" src="./svgs/ts.svg">
+                <h4>typescript</h4>
+            </div>
+
+            <div class="icon-container">
+                <img alt="svgBootstrap" class="lang-icon" src="./svgs/boots.svg">
+                <h4>bootstrap</h4>
+            </div>
+
+            <div class="icon-container">
+                <img alt="svgNode" class="lang-icon" src="./svgs/node.svg">
+                <h4>nodejs</h4>
+            </div>
+
+            <div class="icon-container">
+                <img alt="svgPython" class="lang-icon" src="./svgs/python.svg">
+                <h4>python3</h4>
+            </div>
+
+            <div class="icon-container">
+                <img alt="svgFigma" class="lang-icon" src="./svgs/figma.svg">
+                <h4>figma</h4>
+            </div>
+        </div>
     </section>
 
-    <section class="conteudo">
+    <section class="conteudo" id="projects">
         <h2 class="heading">Projetos</h2>
         <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit; 
