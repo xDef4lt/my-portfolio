@@ -58,9 +58,8 @@ footer {
 
 main {
     background-image: 
-    linear-gradient(to bottom, #00000052, #000000af),
+    linear-gradient(to bottom, #00000052, #000000d2),
     url('https://wallpapercave.com/wp/wp10486506.jpg');
-    backdrop-filter: blur(6px);
     background-size: cover;
     background-repeat: no-repeat;
 
