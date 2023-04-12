@@ -6,7 +6,7 @@ body {
 
     display: flex;
     flex-direction: column;
-    gap: 4em;
+    gap: 8em;
 }
 
 header {
@@ -51,10 +51,19 @@ footer {
 
 main {
     width: 100%;
-    margin: 9em auto;
+    margin: 12em auto;
+    margin-bottom: 3em;
 }
 
-
+.menu-wrap {    
+    color: var(--primary-color);
+    font-size: 26px;    
+    margin-left: 20px;
+}
+.menu {
+    display: inline-flex;
+    gap: 2.5em;
+}
 .background {
     width: 80%;
     height: 500vh;
@@ -142,7 +151,7 @@ main {
 
 .conteudo {
     min-width: 400px;
-    max-width: 700px;
+    max-width: 900px;
     margin: auto;
 
     display: flex;
