@@ -63,6 +63,8 @@ main {
     background-size: cover;
     background-repeat: no-repeat;
 
+    object-fit: cover;
+
     width: 100%;
     margin: auto;
     padding-top: 18em;
