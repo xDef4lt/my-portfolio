@@ -60,7 +60,7 @@ main {
     background-image: 
     linear-gradient(to bottom, #00000052, #000000af),
     url('https://wallpapercave.com/wp/wp10486506.jpg');
-    backdrop-filter: blur(3px);
+    backdrop-filter: blur(6px);
     background-size: cover;
     background-repeat: no-repeat;
 
