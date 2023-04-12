@@ -57,9 +57,12 @@ footer {
 }
 
 main {
+    background-image: url('https://wallpapercave.com/wp/wp10486506.jpg');
+
     width: 100%;
-    margin: 14em auto;
-    margin-bottom: 20em;
+    margin: auto;
+    padding-top: 14em;
+    padding-bottom: 20em;
 }
 
 .menu-wrap {    
