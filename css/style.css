@@ -57,7 +57,11 @@ footer {
 }
 
 main {
-    background-image: url('https://wallpapercave.com/wp/wp10486506.jpg');
+    background-image: 
+    linear-gradient(to right, #00000041, #00000041),
+    url('https://wallpapercave.com/wp/wp10486506.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
 
     width: 100%;
     margin: auto;
