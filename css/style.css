@@ -180,7 +180,10 @@ main {
 }
 .botao-contato {
     width: 150px;
-    height: 50px;
+
+    padding: 10px;
+
+    text-align: center;
 
     position: relative;
     z-index: 900;
@@ -192,7 +195,7 @@ main {
     font-weight: bolder;
 
     color: var(--primary-color);
-    background: transparent;
+    background: var(--secondary-color);
     border: 2px solid var(--primary-color);
 }
 
