@@ -274,7 +274,7 @@ main {
 
     background: #222;
     border-top-left-radius: 20px;
-    border-bottom: 4px solid var(--secondary-theme-color);
+    border-bottom: 4px solid var(--primary-theme-color);
 
     transition: all .5s;
     cursor: pointer;
