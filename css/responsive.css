@@ -18,6 +18,9 @@
         gap: 10px;
 
         margin-left: 10px;
+
+        cursor: pointer;
+        transition: all .6s;
     }
     .line {
         width: 100%;
