@@ -2,6 +2,9 @@
     section.introduction {
         flex-direction: column;
     }
+    main {
+        padding-top: 10em;
+    }
     .menu-wrap {
         display: none;
     }
@@ -11,13 +14,13 @@
 
     .mobile-menu {
         width: 2em;
-        height: 3em;
+        height: auto;
 
         display: flex;
         flex-direction: column;
         gap: 10px;
 
-        margin-left: 10px;
+        margin-left: 15px;
 
         cursor: pointer;
         transition: all .6s;

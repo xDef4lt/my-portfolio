@@ -174,11 +174,13 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 1em;
+    gap: 1.4em;
+    flex-wrap: wrap;
 
     position: relative;
 }
 .botao-contato {
+    flex-basis: 160px;
     width: 150px;
 
     padding: 10px;
@@ -294,7 +296,7 @@ main {
 }
 
 .project-container {
-    min-width: 100px;
+    min-width: 150px;
     max-width: 420px;
     height: auto;
 
