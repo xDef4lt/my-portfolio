@@ -5,6 +5,24 @@
     animation: slideRight 1.5s;
 }
 
+[data-animar].animar {
+    animation: slideIn 0.8s;
+    opacity: 1;
+}
+[data-animar] {
+    opacity: 0;
+    transition: 0.8s;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translate3d(-80px, 0, 0);
+        opacity: 0;
+    } to {
+        transform: translate3d(0, 0, 0);
+    }
+}
+
 @keyframes slideLeft {
     from {
         transform: translateX(-500px);
