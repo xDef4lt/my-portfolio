@@ -58,14 +58,6 @@ footer {
 }
 
 main {
-    background-image: 
-    linear-gradient(to bottom, #00000052, #000),
-    url('https://wallpapercave.com/wp/wp10486506.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-
-    object-fit: cover;
-
     width: 100%;
     margin: auto;
     padding-top: 12em;
@@ -124,6 +116,13 @@ main {
 }
 
 .introduction {
+    background-image: 
+    linear-gradient(to bottom, #00000052, #000),
+    url('https://wallpapercave.com/wp/wp10486506.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    object-fit: cover;
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
