@@ -1,8 +1,6 @@
 @media (max-width: 700px) {
     section.introduction {
         flex-direction: column;
-    }
-    main {
         padding-top: 10em;
     }
     .menu-wrap {
