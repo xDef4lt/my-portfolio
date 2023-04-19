@@ -6,7 +6,7 @@ body {
 
     display: flex;
     flex-direction: column;
-    gap: 12em;
+    gap: 16em;
 }
 
 header {
@@ -60,8 +60,6 @@ footer {
 main {
     width: 100%;
     margin: auto;
-    padding-top: 12em;
-    padding-bottom: 12em;
 }
 
 .menu-wrap {    
@@ -121,6 +119,9 @@ main {
     url('https://wallpapercave.com/wp/wp10486506.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+
+    padding-top: 12em;
+    padding-bottom: 12em;
 
     object-fit: cover;
     display: flex;
