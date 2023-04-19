@@ -103,7 +103,7 @@ main {
 .page-content {
     display: flex;
     flex-direction: column;
-    gap: 16em;
+    gap: 18em;
 }
 
 .introduction {
