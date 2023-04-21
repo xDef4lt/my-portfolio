@@ -151,7 +151,7 @@ main {
     font-size: max(min(6.3vw, 50px), 35px);
 }
 
-.info-container > h2, span {
+.info-container > h2, span, h3 {
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
@@ -196,7 +196,7 @@ main {
     border: 2px solid var(--primary-color);
 }
 
-.botao-contato::before {
+.botao-contato#botao-gradiente::before {
     content: '';
 
     position: absolute;
@@ -211,7 +211,7 @@ main {
     background-image: var(--gradient-theme-reverse);
     transition: all .5s;
 }
-.botao-contato:hover::before {
+.botao-contato#botao-gradiente:hover::before {
     width: 100%;
 }
 
@@ -288,17 +288,6 @@ main {
     height: auto;
 
     transition: all .5s;
-}
-.project-container {
-    min-width: 150px;
-    max-width: 420px;
-    height: auto;
-
-    border-bottom: 2px solid var(--secondary-theme-color);
-}
-.img-projeto {
-    width: 100%;
-    height: 100%;
 }
 .social {
     display: inline-flex;
