@@ -282,9 +282,6 @@ main {
 .icon-container:hover {
     transform: translateY(-10px);
 }
-.icon-container:hover > .lang-icon {
-    background: var(--secondary-theme-color);
-}
 .lang-icon {
     min-width: 50px;
     max-width: 70px;
@@ -292,10 +289,6 @@ main {
 
     transition: all .5s;
 }
-.lang-icon:hover {
-    background: var(--primary-theme-color);
-}
-
 .project-container {
     min-width: 150px;
     max-width: 420px;
@@ -306,6 +299,10 @@ main {
 .img-projeto {
     width: 100%;
     height: 100%;
+}
+.social {
+    display: inline-flex;
+    gap: 1.5em;
 }
 
 #projects {
