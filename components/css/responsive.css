@@ -34,4 +34,8 @@
     .project-container:hover .link-container {
         transform: translate(210px, -220px);
     }
+
+    .page-content {
+        gap: 12em;
+    }
 }
