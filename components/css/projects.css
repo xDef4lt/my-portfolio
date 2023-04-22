@@ -1,7 +1,8 @@
 .project-container {
     min-width: 150px;
-    max-width: 420px;
-    height: auto;
+    max-width: 430px;
+    height: 220px;
+    overflow: hidden;
 
     transition: all .5s;
 }
@@ -11,28 +12,33 @@
     transition: all .5s;
 }
 .project-info {
-    background-color: #0000008a;
-    transform: translateY(-100px);
+    background-color: #0000009e;
+    transform: translateY(-115px);
+    padding-bottom: 1em;
+    padding-left: 5px;
     width: 100%;
+
 }
 .project-info > .lang-icon {
-    width: 50px;
+    width: 40px;
     opacity: .9;
-}
-.project-info > article {
-    flex-basis: 475px;
 }
 
 .project-info > h3 {
     font-size: 2em;
 } 
 
-.project-info > .btn-container {
-    transform: translate(100px, -110px);
+.link-container {
+    transform: translate(250px, -220px);
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
 }
-.project-info > .btn-container > .botao-link {
-    width: 90px;
+.link-container > .botao-link {
+    width: 140px;
     text-align: center;
+
+    position: relative;
 
     padding: 5px;
 

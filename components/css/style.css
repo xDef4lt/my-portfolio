@@ -196,7 +196,7 @@ main {
     border: 2px solid var(--primary-color);
 }
 
-.botao-contato#botao-gradiente::before {
+.botao-contato#gradient-hover::before, .botao-link:before {
     content: '';
 
     position: absolute;
@@ -211,7 +211,7 @@ main {
     background-image: var(--gradient-theme-reverse);
     transition: all .5s;
 }
-.botao-contato#botao-gradiente:hover::before {
+.botao-contato#gradient-hover:hover::before, .botao-link:hover::before {
     width: 100%;
 }
 
