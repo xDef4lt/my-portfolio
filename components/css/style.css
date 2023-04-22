@@ -96,6 +96,9 @@ main {
     color: transparent;
     background-image: var(--gradient-theme);
 }
+h3 {
+    background-image: var(--gradient-theme-reverse);
+}
 
 .info-container > h2 {
     font-size: max(min(7vw, 45px), 25px);

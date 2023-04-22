@@ -24,7 +24,7 @@ html {
     --secondary-theme-color: #fa4df1;
 
     --gradient-theme: linear-gradient(to right, var(--secondary-theme-color), var(--primary-theme-color));
-    --gradient-theme-reverse: linear-gradient(to right, var(--secondary-theme-color), var(--primary-theme-color));;
+    --gradient-theme-reverse: linear-gradient(to right, var(--primary-theme-color), var(--secondary-theme-color));
     --gradient-theme-bottom: linear-gradient(to bottom, var(--primary-theme-color), var(--secondary-theme-color));
 }
 
