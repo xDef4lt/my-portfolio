@@ -132,31 +132,3 @@ main {
     display: inline-flex;
     gap: 1.5em;
 }
-
-.arrow-container {
-    width: 40px;
-    height: 40px;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    background: var(--secondary-theme-color);
-
-    border-radius: 50%;
-    padding: 4px;
-
-    position: fixed;
-    right: 1em;
-    bottom: 1em;
-
-    transition: all .6s;
-} 
-
-.arrow-container > img {
-    width: 100%;
-    height: auto;
-}
-.arrow-container:hover {
-    background: var(--gradient-theme);
-}
