@@ -1,5 +1,5 @@
 .project-container {
-    min-width: 400px;
+    min-width: 360px;
     max-width: 430px;
     height: 220px;
     overflow: hidden;
@@ -29,7 +29,7 @@
 } 
 
 .link-container {
-    transform: translate(230px, -220px);
+    transform: translate(210px, -220px);
     display: flex;
     flex-direction: column;
     gap: 5px;
