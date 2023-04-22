@@ -141,7 +141,7 @@ main {
     align-items: center;
     justify-content: center;
 
-    background-image: var(--gradient-theme);
+    background-image: var(--secondary-theme-color);
 
     border-radius: 50%;
     padding: 4px;
@@ -149,9 +149,14 @@ main {
     position: fixed;
     right: 1em;
     bottom: 1em;
+
+    transition: all .6s;
 } 
 
 .arrow-container > img {
     width: 100%;
     height: auto;
+}
+.arrow-container:hover {
+    background-image: var(--gradient-theme);
 }
