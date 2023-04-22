@@ -29,13 +29,13 @@
 } 
 
 .link-container {
-    transform: translate(250px, -220px);
+    transform: translate(220px, -220px);
     display: flex;
     flex-direction: column;
     gap: 5px;
 }
 .link-container > .botao-link {
-    width: 120px;
+    width: 140px;
     text-align: center;
 
     position: relative;
