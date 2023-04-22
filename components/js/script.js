@@ -19,8 +19,8 @@ const btnTopo = document.getElementById("voltar-topo");
 
 window.onscroll = function() {
   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    btnTopo.style.visibility = "visible";
+    btnTopo.style.display = "flex";
   } else {
-    btnTopo.style.visibility = "hidden";
+    btnTopo.style.display = "none";
   }
 };
