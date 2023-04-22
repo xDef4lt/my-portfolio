@@ -29,7 +29,7 @@
 } 
 
 .link-container {
-    transform: translate(250px, -215px);
+    transform: translate(250px, -220px);
     display: flex;
     flex-direction: column;
     gap: 5px;
