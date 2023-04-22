@@ -31,7 +31,7 @@
         background-image: var(--gradient-theme);
     }
 
-    .link-container {
-        transform: translate(140px, -220px);
+    .project-container:hover .link-container {
+        transform: translate(210px, -220px);
     }
 }
