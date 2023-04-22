@@ -134,8 +134,12 @@ main {
 }
 
 .arrow-container {
-    width: 80px;
-    height: 80px;
+    width: 40px;
+    height: 40px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
     background-image: var(--gradient-theme);
 
@@ -148,6 +152,6 @@ main {
 } 
 
 .arrow-container > img {
-    width: 80%;
+    width: 100%;
     height: auto;
 }
