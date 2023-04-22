@@ -70,7 +70,6 @@ main {
 
 .menu-item {
     position: relative;
-    padding-left: 1em;
 
     cursor: pointer;
     transition: all .6s;
@@ -82,22 +81,22 @@ main {
 
 .menu-item > a::before {
     content: '';
-    display: none;
+    display: block;
 
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
+    width: 0px;
+    height: 1px;
+    border-radius: 5px;
 
     background-image: var(--gradient-theme);
     position: absolute;
-    top: 10px;
+    bottom: 0px;
     left: 0;
 
     transition: all .5s;
 }
 
 .menu-item > a:hover:before {
-    display: block;
+    width: 100%;
 }
 
 .page-content {
@@ -219,6 +218,10 @@ main {
     color: var(--secondary-color);
     background: var(--gradient-theme);
     border: 0;
+}
+
+.btn-gradient:hover {
+    font-size:1.4em;
 }
 
 .conteudo {
