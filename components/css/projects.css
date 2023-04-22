@@ -17,6 +17,7 @@
 }
 .project-info > .lang-icon {
     width: 50px;
+    opacity: .8;
 }
 .project-info > article {
     flex-basis: 475px;
