@@ -14,3 +14,13 @@ function AnimarScroll () {
 }
 
 window.addEventListener('scroll', () => AnimarScroll());
+
+const btnTopo = document.getElementById("voltar-topo");
+
+window.onscroll = function() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    btnTopo.style.visibility = "visible";
+  } else {
+    btnTopo.style.visibility = "hidden";
+  }
+};
