@@ -6,13 +6,13 @@
 
     header.active {
         height: 99%;
-        align-items:flex-start;
+        align-items: center;
         overflow: hidden;
     }
 
     .menu {
         height: 0;
-        transition: all .2s;
+        transition: display .2s;
     }
 
     .menu.active {
@@ -21,7 +21,7 @@
         align-items: center;
         gap: 1em;
 
-        margin: 2.5em;
+        margin-left: 2em;
 
         width: auto;
         height: auto;
