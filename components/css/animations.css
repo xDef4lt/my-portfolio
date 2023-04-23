@@ -1,8 +1,14 @@
+/*Animação Seção Inicial*/
 .info-container.animate {
     animation: slideLeft 1.5s;
 }
 .img-container.animate {
     animation: slideRight 1.5s;
+}
+
+/*Animação Menu Mobile*/
+.mobile-menu.active {
+    transform: rotate(90deg);
 }
 
 [data-animar].animar {

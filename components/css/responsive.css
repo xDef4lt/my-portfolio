@@ -3,9 +3,32 @@
         flex-direction: column;
         padding-top: 10em;
     }
-    .menu-wrap {
-        display: none;
+
+    header.active {
+        height: 99%;
+        align-items:flex-start;
+        overflow: hidden;
     }
+
+    .menu {
+        height: 0;
+        transition: all .2s;
+    }
+
+    .menu.active {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1em;
+
+        margin: 2.5em;
+
+        width: auto;
+        height: auto;
+        font-size: 1.6em;
+
+    }
+
     .info-container > h1, .info-container > h2 {
         text-align: center;
     }
@@ -18,7 +41,10 @@
         flex-direction: column;
         gap: 10px;
 
-        margin-left: 15px;
+        top: 15px;
+        left: 15px;
+
+        position: fixed;
 
         cursor: pointer;
         transition: all .6s;

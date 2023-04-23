@@ -9,6 +9,7 @@ header {
 
     position: fixed;
     z-index: 200;
+    transition: all .7s;
 
     display: flex;
     justify-content: flex-start;
