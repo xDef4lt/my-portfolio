@@ -28,7 +28,7 @@ html {
     --gradient-theme-bottom: linear-gradient(to bottom, var(--primary-theme-color), var(--secondary-theme-color));
 }
 
-body::-webkit-scrollbar {
+::-webkit-scrollbar {
     width: 5px;
     height: 5px;
 }
