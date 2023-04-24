@@ -1,0 +1,25 @@
+#services {
+    width: 100%;
+    height: fit-content;
+
+    align-items: center;
+    justify-content: center;
+
+    gap: 4em;
+}
+
+.slider {
+    padding: 4px;
+}
+
+.slider > article {
+    text-align: center;
+}
+.slider > article > h3 {
+    font-size: 3em;
+}
+
+.dev-icon {
+    width: 140px;
+    height: auto;
+}
