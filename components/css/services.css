@@ -20,6 +20,9 @@
 .slider > article > h3 {
     font-size: 3em;
 }
+.slider > article > p {
+    text-align: center;
+}
 
 .dev-icon {
     width: 140px;
