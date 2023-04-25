@@ -101,9 +101,9 @@ h3 {
 }
 
 .my-logo-container {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
+    position: fixed;
+    right: 10px;
+    top: 10px;
 }
 .my-logo-container > img {
     width: 60px;
