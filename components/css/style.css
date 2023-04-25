@@ -101,14 +101,13 @@ h3 {
 }
 
 .my-logo-container {
-    width: 100%;
     display: flex;
     justify-content: flex-end;
     align-items: center;
 }
 .my-logo-container > img {
-    width: 90px;
-    height: 90px;
+    width: 60px;
+    height: 60px;
 }
 
 .info-container > h2 {
