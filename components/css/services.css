@@ -14,7 +14,8 @@
 
 .slider > article {
     text-align: center;
-    width: 55%;
+    width: 300px;
+    margin: auto;
 }
 .slider > article > h3 {
     font-size: 3em;
