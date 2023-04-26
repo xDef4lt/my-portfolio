@@ -16,6 +16,12 @@
 <h2> ➢ Outras informações</h2>
 <ul>
     <li> <strong>Status:</strong> <em>Desenvolvendo</em>
+    <li>Linguagens utilizadas:
+    <div style="display: inline-block">
+        <img align="center" height="50px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg" />
+        <img align="center" height="50px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg" />
+        <img align="center" height="50px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" />
+    </div>
     <li> <strong>Conhecimentos aplicados:</strong>
     <ul>
         <li> 
