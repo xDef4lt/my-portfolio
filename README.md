@@ -8,7 +8,6 @@
     <li> Uma breve apresentação: onde você poderá conhecer melhor a mim e meu trabalho
     <li> Conhecimentos: Você verá todas as tecnologias/ferramentas que eu possuo experiência
     <li> Projetos: Você terá acesso a uma coleção de alguns de meus projetos pessoais e (futuramente) profissionais
-    <li>
     <li> Serviços: Você também saberá quais tipos de serviços que presto como desenvolvedor
     <li> Redes sociais e meios de contato: Links para minhas mídias sociais e para entrar em contato, caso queira contratar meus serviços :D
 </ul>
