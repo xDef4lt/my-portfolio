@@ -12,6 +12,7 @@
     <li> Serviços: Você também saberá quais tipos de serviços que presto como desenvolvedor
     <li> Redes sociais e meios de contato: Links para minhas mídias sociais e para entrar em contato, caso queira contratar meus serviços :D
 </ul>
+<p> Você pode acessar o site através deste link: https://my-portfolio-xdef4lt.vercel.app/</p>
 
 <h2> ➢ Outras informações</h2>
 <ul>
