@@ -25,7 +25,7 @@
     <li> <strong>Conhecimentos aplicados:</strong>
     <ul>
         <li> 
-            Procurei usar grande parte de meus conhecimentos de front-end para criar essa
+            Procurei usar grande parte de meus conhecimentos de front-end para criar esse
             portfólio e, com o passar do tempo, irei atualizá-lo com novas funcionalidades 
             conforme aprendo coisas novas.
         </li>
