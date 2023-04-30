@@ -30,8 +30,11 @@
 }
 
 [data-anima-texto] {
-    width: 17ch;
+    white-space: nowrap;
+    width: fit-content;
     
+    letter-spacing: 1px;
+
     animation: 
         digitar 5.5s steps(17, end),
         piscar .5s step-end infinite;
