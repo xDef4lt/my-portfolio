@@ -72,11 +72,11 @@ const defaultIcons = [
 ];
 
 const activeIcons = [
-  'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg',
-  'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg',
+  'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg',
+  'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg',
   'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg',
-  'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-plain.svg',
-  'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain.svg',
+  'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg',
+  'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg',
   'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-plain.svg',
   'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg',
   'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg'
