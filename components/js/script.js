@@ -63,11 +63,24 @@ const icons = document.querySelectorAll('.lang-icon');
 const defaultIcons = [
   './assets/svgs/html.svg',
   './assets/svgs/css.svg',
-  './assets/svgs/js.svg'
+  './assets/svgs/js.svg',
+  './assets/svgs/ts.svg',
+  './assets/svgs/boots.svg',
+  './assets/svgs/node.svg',
+  './assets/svgs/python.svg',
+  './assets/svgs/figma.svg'
 ];
 
 const activeIcons = [
-  './assets/svgs/html-pink.svg'
+  'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg',
+  'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg',
+  'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg',
+  'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-plain.svg',
+  'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain.svg',
+  'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-plain.svg',
+  'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg',
+  'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg'
+
 ];
 
 for (let i in cardIcons) {
