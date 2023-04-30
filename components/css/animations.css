@@ -20,6 +20,16 @@
     transition: 0.8s;
 }
 
+
+[data-anima-texto] {
+    max-width: 13ch; 
+    border-right: 6px solid var(--secondary-theme-color);
+    white-space: nowrap;
+    animation: 
+      digitar 6s steps(40, end) alternate, 
+      piscar .8s step-end infinite;
+}
+
 @keyframes slideIn {
     from {
         transform: translate3d(-80px, 0, 0);
@@ -27,15 +37,6 @@
     } to {
         transform: translate3d(0, 0, 0);
     }
-}
-
-[data-anima-texto] {
-    max-width: 13ch; 
-    border-right: 6px solid var(--secondary-theme-color);
-    white-space: nowrap;
-    animation: 
-      digitar 8s steps(40, end) alternate, 
-      piscar .8s step-end infinite;
 }
 
 @keyframes slideLeft {
