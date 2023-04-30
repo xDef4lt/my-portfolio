@@ -56,7 +56,7 @@
 
 @keyframes digitar {
     from { width: 0 }
-    to { width: 13ch }
+    to { width: 10ch }
 }
   
 @keyframes piscar {
