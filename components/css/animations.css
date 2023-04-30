@@ -34,8 +34,21 @@
     border-right: 6px solid var(--secondary-theme-color);
     white-space: nowrap;
     animation: 
-      digitar 6s steps(17, end), 
-      piscar .5s step-end infinite;
+      digitar 6s steps(17, end);
+}
+[data-anima-texto]::after {
+    width: 6px;
+    height: 3px;
+
+    position: absolute;
+    top: 1px;
+    left: 0;
+
+    z-index: 111;
+
+    animation:
+    mover 6s, 
+    piscar .5s step-end infinite;
 }
 
 @keyframes slideLeft {
@@ -61,4 +74,10 @@
   
 @keyframes piscar {
     50% { border-color: transparent; }
+}
+
+@keyframes mover {
+    to {
+        left: 98%;
+    }
 }
