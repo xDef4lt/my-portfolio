@@ -40,7 +40,7 @@
     width: 13.4ch;
 
     animation: 
-        digitar 5.5s steps(17, end),
+        digitar 6s steps(17, end),
         piscar .5s step-end infinite;
 }
 
