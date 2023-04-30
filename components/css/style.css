@@ -36,7 +36,13 @@ footer {
 
 main {
     width: 100%;
-    height: 100%;
+    height: 100vw;
+
+    background-image: 
+    linear-gradient(to bottom, #00000052, #000),
+    url('https://wallpapercave.com/wp/wp10486506.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
 
     position: relative;
 }
@@ -48,11 +54,7 @@ main {
 }
 
 .introduction {
-    background-image: 
-    linear-gradient(to bottom, #00000052, #000),
-    url('https://wallpapercave.com/wp/wp10486506.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
+    
 
     position: absolute;
     top: 50%;
