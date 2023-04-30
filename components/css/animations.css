@@ -30,10 +30,12 @@
 }
 
 [data-anima-texto] {
+    width: min-content; 
+    overflow: hidden;
     border-right: 6px solid var(--secondary-theme-color);
     white-space: nowrap;
     animation: 
-      digitar 6s steps(40, end), 
+      digitar 6s steps(17, end), 
       piscar .5s step-end infinite;
 }
 
