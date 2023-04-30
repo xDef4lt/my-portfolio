@@ -34,8 +34,8 @@
     border-right: 6px solid var(--secondary-theme-color);
     white-space: nowrap;
     animation: 
-      digitar 10s steps(13, end), 
-      piscar .5s step-end infinite;
+      digitar 8s steps(40, end) alternate, 
+      piscar .8s step-end infinite;
 }
 
 @keyframes slideLeft {
