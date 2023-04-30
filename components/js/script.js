@@ -70,15 +70,8 @@ const activeIcons = [
   './assets/svgs/html-pink.svg'
 ];
 
-/*cardIcons.forEach(card => {
-  card.addEventListener('mouseenter', () => {
-    icons[card].src = activeIcons[card];
-  });
-
-  icons[card].src = defaultIcons[card];
-})*/
-
-alert(defaultIcons)
-    alert(activeIcons)
-    alert(cardIcons)
-    alert(icons)
+for (let i in cardIcons) {
+  cardIcons[i].addEventListener('mouseenter', () => {
+    alert(cardIcons[i]);
+  })
+}
