@@ -30,9 +30,6 @@
 }
 
 [data-anima-texto] {
-    white-space: nowrap;
-    width: min-content; 
-    overflow: hidden;
     border-right: 6px solid var(--secondary-theme-color);
     white-space: nowrap;
     animation: 
