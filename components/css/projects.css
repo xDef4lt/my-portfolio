@@ -1,7 +1,7 @@
 #projects {
     max-width: 1900px;
     justify-content: flex-start;
-    align-items: flex-start;
+    align-items: center;
 }
 
 .project-container {
