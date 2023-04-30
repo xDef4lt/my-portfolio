@@ -43,12 +43,12 @@
     display: block;
     
     width: 6px;
-    height: 3px;
+    height: 100%;
     background: var(--secondary-theme-color);
 
     position: absolute;
     top: 1px;
-    left: 0;
+    left: 10px;
 
     z-index: 111;
 
@@ -75,7 +75,7 @@
 
 @keyframes digitar {
     from { width: 0 }
-    to { width: 17ch }
+    to { width: min-content }
 }
   
 @keyframes piscar {
