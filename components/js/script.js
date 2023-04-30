@@ -77,3 +77,8 @@ cardIcons.forEach(card => {
 
   icons[card].src = defaultIcons[card];
 })
+
+alert(defaultIcons)
+    alert(activeIcons)
+    alert(cardIcons)
+    alert(cardIcons)
