@@ -33,10 +33,16 @@
     width: 17ch; 
     border-right: 6px solid var(--secondary-theme-color);
     white-space: nowrap;
+
+    position: relative;
+
     animation: 
       digitar 6s steps(17, end);
 }
 [data-anima-texto]::after {
+    content: '';
+    display: block;
+    
     width: 6px;
     height: 3px;
 
