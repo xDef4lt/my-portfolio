@@ -35,7 +35,7 @@
 
     overflow: hidden;
 
-    border-right: 6px solid #fff;
+    border-right: 6px solid var(--secondary-theme-color);
     white-space: nowrap;
     width: 13.4ch;
 
