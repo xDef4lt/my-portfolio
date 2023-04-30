@@ -51,7 +51,7 @@
     width: 100%;
 }
 .botao-contato#gradient-hover:hover {
-    color: var(--primary-color);
+    color: var(--seconday-color);
 }
 
 .btn-gradient {

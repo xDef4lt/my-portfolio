@@ -56,3 +56,24 @@ btnHamburguer.addEventListener('click', function () {
   }
 
 });
+
+const cardIcons = document.querySelectorAll('.icon-container');
+const icons = document.querySelectorAll('.lang-icon');
+
+const defaultIcons = [
+  './assets/svgs/html.svg',
+  './assets/svgs/css.svg',
+  './assets/svgs/js.svg'
+];
+
+const activeIcons = [
+  './assets/svgs/html-pink.svg'
+];
+
+cardIcons.forEach(card => {
+  card.addEventListener('mouseenter', () => {
+    icons[card].src = activeIcons[card];
+  });
+
+  icons[card].src = defaultIcons[card];
+})
