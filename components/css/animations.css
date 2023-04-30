@@ -31,17 +31,13 @@
 
 [data-anima-texto] {
     white-space: nowrap;
-    width: fit-content;
-
+    width: min-content; 
     overflow: hidden;
-
     border-right: 6px solid var(--secondary-theme-color);
     white-space: nowrap;
-    width: 13.4ch;
-
     animation: 
-        digitar 6s steps(17, end),
-        piscar .5s step-end infinite;
+      digitar 6s steps(40, end), 
+      piscar .5s step-end infinite;
 }
 
 @keyframes slideLeft {
