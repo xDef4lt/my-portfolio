@@ -28,11 +28,11 @@ html {
     --gradient-theme-bottom: linear-gradient(to bottom, var(--primary-theme-color), var(--secondary-theme-color));
 }
 
-::-webkit-scrollbar {
+body::-webkit-scrollbar {
     width: 5px;
     height: 5px;
 }
-::-webkit-scrollbar-thumb {
+body::-webkit-scrollbar-thumb {
     background: var(--gradient-theme-bottom);
     border-radius: 5px;
 }
