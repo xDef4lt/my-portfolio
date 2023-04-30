@@ -29,6 +29,14 @@
     }
 }
 
+[data-anima-texto] {
+    width: 17ch;
+    
+    animation: 
+        digitar 5.5s steps(17, end),
+        piscar .5s step-end infinite;
+}
+
 @keyframes slideLeft {
     from {
         transform: translateX(-500px);
@@ -43,4 +51,12 @@
     } to {
         transform: translateX(0);
     }
+}
+
+@keyframes digitar {
+    from { width: 0 }
+}
+  
+@keyframes piscar {
+    50% { border-color: transparent; }
 }
