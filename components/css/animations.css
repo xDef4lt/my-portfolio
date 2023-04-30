@@ -30,11 +30,11 @@
 }
 
 [data-anima-texto] {
-    max-width: 17ch; 
+    max-width: 13ch; 
     border-right: 6px solid var(--secondary-theme-color);
     white-space: nowrap;
     animation: 
-      digitar 8s steps(17, end), 
+      digitar 8s steps(13, end), 
       piscar .5s step-end infinite;
 }
 
@@ -56,7 +56,6 @@
 
 @keyframes digitar {
     from { width: 0 }
-    to { width: auto; }
 }
   
 @keyframes piscar {
