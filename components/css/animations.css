@@ -34,7 +34,7 @@
     border-right: 6px solid var(--secondary-theme-color);
     white-space: nowrap;
     animation: 
-      digitar 6s steps(13, end), 
+      digitar 10s steps(13, end), 
       piscar .5s step-end infinite;
 }
 
@@ -56,7 +56,7 @@
 
 @keyframes digitar {
     from { width: 0 }
-    to { width: 10ch }
+    to { width: 13ch }
 }
   
 @keyframes piscar {
