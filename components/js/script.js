@@ -72,6 +72,10 @@ const activeIcons = [
 
 for (let i in cardIcons) {
   cardIcons[i].addEventListener('mouseenter', () => {
-    alert(cardIcons[i]);
+    icons[i].src = activeIcons[i]
+  });
+
+  cardIcons[i].addEventListener('mouseout', () => {
+    icons[i].src = defaultIcons[i];
   })
 }
