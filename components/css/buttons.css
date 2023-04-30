@@ -50,6 +50,9 @@
 .botao-contato#gradient-hover:hover::before, .botao-link:hover::before {
     width: 100%;
 }
+#gradient-hover:hover {
+    color: var(--primary-color);
+}
 
 .btn-gradient {
     color: var(--secondary-color);

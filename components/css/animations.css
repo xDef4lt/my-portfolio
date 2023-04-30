@@ -58,7 +58,7 @@
 
 @keyframes digitar {
     from { width: 0 }
-    to { width: fit-content }
+    to { width: min-content }
 }
   
 @keyframes piscar {
