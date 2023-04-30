@@ -81,4 +81,4 @@ const activeIcons = [
 alert(defaultIcons)
     alert(activeIcons)
     alert(cardIcons)
-    alert(cardIcons)
+    alert(icons)
