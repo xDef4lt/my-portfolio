@@ -32,8 +32,12 @@
 [data-anima-texto] {
     white-space: nowrap;
     width: fit-content;
-    
-    letter-spacing: 1px;
+
+    overflow: hidden;
+
+    border-right: 6px solid #fff;
+    white-space: nowrap;
+    width: 13.4ch;
 
     animation: 
         digitar 5.5s steps(17, end),
