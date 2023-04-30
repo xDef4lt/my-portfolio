@@ -34,7 +34,7 @@
     border-right: 6px solid var(--secondary-theme-color);
     white-space: nowrap;
     animation: 
-      digitar 8s steps(13, end), 
+      digitar 6s steps(13, end), 
       piscar .5s step-end infinite;
 }
 
