@@ -31,7 +31,6 @@
 
 [data-anima-texto] {
     width: 17ch; 
-    border-right: 6px solid var(--secondary-theme-color);
     white-space: nowrap;
 
     position: relative;
@@ -45,6 +44,7 @@
     
     width: 6px;
     height: 3px;
+    background: var(--secondary-theme-color);
 
     position: absolute;
     top: 1px;
