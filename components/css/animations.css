@@ -30,7 +30,7 @@
 }
 
 [data-anima-texto] {
-    width: 17ch; 
+    max-width: 17ch; 
     border-right: 6px solid var(--secondary-theme-color);
     white-space: nowrap;
     animation: 
