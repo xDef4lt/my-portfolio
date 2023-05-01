@@ -103,9 +103,6 @@ main {
     color: transparent;
     background-image: var(--gradient-theme);
 }
-.info-container > h2 {
-    text-align: center;
-}
 h3 {
     background-image: var(--gradient-theme-reverse);
 }
