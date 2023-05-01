@@ -11,7 +11,7 @@
     }
 
     main {
-        height: auto;
+        height: 200vh;
     }
 
     .info-container > h2 {
