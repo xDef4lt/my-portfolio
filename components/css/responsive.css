@@ -1,7 +1,6 @@
 @media (max-width: 880px) {
     section.introduction {
         flex-direction: column;
-        padding-top: 10em;
     }
 
     header.active {
