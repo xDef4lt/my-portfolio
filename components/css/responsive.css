@@ -1,12 +1,17 @@
 @media (max-width: 880px) {
     section.introduction {
         flex-direction: column;
+        padding-top: 10em;
     }
 
     header.active {
         height: 99%;
         align-items: center;
         overflow: hidden;
+    }
+
+    main {
+        height: 160vh;
     }
 
     .menu {
