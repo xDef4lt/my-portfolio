@@ -11,7 +11,11 @@
     }
 
     main {
-        height: 160vh;
+        height: auto;
+    }
+
+    .info-container > h2 {
+        margin: auto;
     }
 
     .menu {
