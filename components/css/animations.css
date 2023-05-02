@@ -23,7 +23,6 @@
 
 [data-anima-texto] {
     max-width: 13ch; 
-    border-right: 6px solid var(--secondary-theme-color);
     white-space: nowrap;
     animation: 
       digitar 5s steps(40, end) alternate, 
