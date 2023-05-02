@@ -25,8 +25,7 @@
     max-width: 13ch; 
     white-space: nowrap;
     animation: 
-      digitar 5s steps(40, end) alternate, 
-      piscar .5s step-end infinite;
+      digitar 4s steps(40, end);
 }
 
 @keyframes slideIn {
@@ -57,8 +56,4 @@
 @keyframes digitar {
     from { width: 0 }
     to { width: 13ch }
-}
-  
-@keyframes piscar {
-    50% { border-color: transparent; }
 }
