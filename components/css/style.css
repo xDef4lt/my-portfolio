@@ -4,7 +4,7 @@ body {
 }
 
 p {
-    font-size: max(min(10vw, 28px), 14px);
+    font-size: max(min(10vw, 28px), 12px);
     text-align: justify;
     color: var(--tertiary-color);
 
@@ -140,8 +140,10 @@ h3 {
 .sub-heading {
     background: var(--gradient-theme);
     color: var(--secondary-color);
+
+
     text-align: center;
-    font-size: 1.3em;
+    font-size: max(min(8vw, 1.8em), 1.5em);
     padding: 4px;
 
     border-radius: 10px;
