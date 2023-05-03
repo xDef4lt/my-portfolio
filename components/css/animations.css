@@ -28,17 +28,17 @@
       digitar 4s steps(40, end);
 }
 
-.music-btn.animar > img {
+.music-btn.animar {
     animation: pulse .5s infinite;
 }
 
 @keyframes pulse {
     from {
-        width: 100px;
-        height: auto;
+        width: 80px;
+        height: 100px;
     } to {
-        width: 180px;
-        height: auto;
+        width: 160px;
+        height: 200px;
     }
 }
 
