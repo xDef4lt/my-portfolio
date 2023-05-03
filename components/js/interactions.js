@@ -72,18 +72,4 @@ for (let i in cardIcons) {
   });
 }
 
-window.addEventListener('scroll', function() {
-  const scrollPos = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
-  const scrollTotal = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-  
-  if (scrollPos === scrollTotal) {
-    // estamos no final da página
-    return;
-  }
-  
-  window.scrollTo({
-    top: scrollTotal,
-    left: 0,
-    behavior: 'smooth'
-  });
-});
+
