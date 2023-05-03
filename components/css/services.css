@@ -14,20 +14,19 @@
     display: inline-flex;
 
     border-radius: 4px;
-
-    transition: all .5s;
 }
 
 .slider > article {
     text-align: center;
 
-    flex-basis: 400px;
+    flex-basis: 450px;
     
     max-width: 450px;
     min-width: 300px;
     
     margin: auto;
     padding: 3px;
+    transition: all .5s;
 }
 .slider > article:hover {
     background: #222;
