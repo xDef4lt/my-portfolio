@@ -101,6 +101,8 @@
     top: 50%;
     left: 50%;
 
+    width: fit-content;
+
     transform: translate(-50%, -50%);
 }
 
@@ -109,6 +111,7 @@
     padding: 3px;
     text-align: center;
     width: 200px;
+    font-size: 2em;
 }
 
 .arrow-container > img {
