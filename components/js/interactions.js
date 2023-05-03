@@ -25,6 +25,17 @@ window.onscroll = function() {
   }
 };
 
+const audio = document.querySelector('audio');
+const toggleMusicBtn = document.querySelector('.music-btn');
+
+toggleMusicBtn.addEventListener('click', () => {
+  if (audio.play()) {
+    audio.pause();
+  } else {
+    audio.play();
+  }
+});
+
 const cardIcons = document.querySelectorAll('.icon-container');
 const icons = document.querySelectorAll('.lang-icon');
 

@@ -129,5 +129,7 @@
 
     position: fixed;
     left: 10px;
-    bottom: 10px;
+    bottom: 5px;
+    
+    cursor: pointer;
 }
