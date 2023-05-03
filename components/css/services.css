@@ -12,6 +12,13 @@
     padding: 4px;
 
     display: inline-flex;
+
+    border-radius: 4px;
+
+    transition: all .5s;
+}
+.slider:hover {
+    background: #222;
 }
 
 .slider > article {
