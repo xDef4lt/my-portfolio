@@ -28,8 +28,7 @@
       digitar 4s steps(40, end);
 }
 
-.music-btn.animate {
-    transition: all .3s;
+.music-btn.animar {
     animation: pulse .4s infinite;
 }
 

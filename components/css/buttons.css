@@ -132,6 +132,7 @@
     bottom: 5px;
 
     opacity: .6;
+    transition: all .3s;
     
     cursor: pointer;
 }
