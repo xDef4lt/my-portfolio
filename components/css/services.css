@@ -10,6 +10,7 @@
 
 .slider {
     padding: 4px;
+    width: 100%;
 
     display: inline-flex;
     flex-wrap: wrap;
@@ -19,7 +20,7 @@
 .slider > article {
     text-align: center;
 
-    flex-basis: 600px;
+    flex-basis: 400px;
     
     max-width: 450px;
     min-width: 300px;
