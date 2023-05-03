@@ -11,10 +11,8 @@
 .slider {
     padding: 4px;
 
-    display: inline-flex;
+    display: flex;
     gap: 10px;
-
-    border-radius: 4px;
 }
 
 .slider > article {
@@ -24,6 +22,8 @@
     
     max-width: 450px;
     min-width: 300px;
+
+    border-radius: 4px;
     
     margin: auto;
     padding: 6px;
