@@ -22,7 +22,7 @@
 
 
 [data-anima-texto] {
-    max-width: 13ch; 
+    max-width: 14ch; 
     white-space: nowrap;
     animation: 
       digitar 4s steps(40, end);
@@ -55,5 +55,5 @@
 
 @keyframes digitar {
     from { width: 0 }
-    to { width: 13ch }
+    to { width: 14ch }
 }
