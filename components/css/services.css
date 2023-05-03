@@ -14,8 +14,12 @@
 
 .slider > article {
     text-align: center;
-    width: 450px;
+    
+    max-width: 450px;
+    min-width: 300px;
+    
     margin: auto;
+    padding: 3px;
 }
 .slider > article > h3 {
     font-size: max(min(8vw, 3em), 1.5em);
