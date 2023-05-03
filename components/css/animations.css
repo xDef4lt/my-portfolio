@@ -28,6 +28,21 @@
       digitar 4s steps(40, end);
 }
 
+.music-btn.animate {
+    transition: all .3s;
+    animation: pulse .4s infinite;
+}
+
+@keyframes pulse {
+    from {
+        width: 100px;
+        height: auto;
+    } to {
+        width: 150px;
+        height: auto;
+    }
+}
+
 @keyframes slideIn {
     from {
         transform: translate3d(-80px, 0, 0);
