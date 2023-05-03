@@ -18,11 +18,10 @@
     margin: auto;
 }
 .slider > article > h3 {
-    font-size: max(min(8vw, 3), 1.5em);
+    font-size: max(min(8vw, 3em), 1.5em);
 }
 .slider > article > p {
     text-align: center;
-    width: 80%;
     font-size: max(min(8vw, 1.8em), 1.3em);
     padding: 5px;
 }
