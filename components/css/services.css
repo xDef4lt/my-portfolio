@@ -20,7 +20,7 @@
 .slider > article {
     text-align: center;
 
-    flex-basis: 350px;
+    flex-basis: 300px;
     
     max-width: 450px;
     min-width: 300px;
