@@ -97,6 +97,8 @@
     flex-direction: row;
     gap: 10px;
 
+    margin: auto;
+
     width: fit-content;
 
     transform: translate(-50%, -50%);
