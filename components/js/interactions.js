@@ -31,10 +31,8 @@ const toggleMusicBtn = document.querySelector('.music-btn');
 toggleMusicBtn.addEventListener('click', () => {
   if (audio.paused) {
     audio.play();
-    audio.classList.add(animation)
   } else {
     audio.pause();
-    audio.classList.remove(animation);
   }
 });
 
