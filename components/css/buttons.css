@@ -135,6 +135,7 @@
     transition: all .3s;
     
     cursor: pointer;
+    z-index: 999;
 }
 .music-btn:hover {
     opacity: 1;
