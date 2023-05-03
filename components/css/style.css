@@ -39,7 +39,7 @@ main {
     height: 90vh;
 
     background-image: 
-    linear-gradient(to bottom, #00000052, #000000b9),
+    linear-gradient(to bottom, #00000052, #000),
     url('https://wallpapercave.com/wp/wp10486506.jpg');
     background-size: cover;
     background-repeat: no-repeat;
