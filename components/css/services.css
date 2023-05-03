@@ -10,6 +10,8 @@
 
 .slider {
     padding: 4px;
+
+    display: inline-flex;
 }
 
 .slider > article {
