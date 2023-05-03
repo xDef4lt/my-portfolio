@@ -11,7 +11,8 @@
 .slider {
     padding: 4px;
 
-    display: flex;
+    display: inline-flex;
+    flex-wrap: wrap;
     gap: 10px;
 }
 
