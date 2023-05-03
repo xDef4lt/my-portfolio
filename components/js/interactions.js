@@ -29,10 +29,10 @@ const audio = document.querySelector('audio');
 const toggleMusicBtn = document.querySelector('.music-btn');
 
 toggleMusicBtn.addEventListener('click', () => {
-  if (audio.play()) {
-    audio.pause();
-  } else {
+  if (audio.paused) {
     audio.play();
+  } else {
+    audio.pause();
   }
 });
 
