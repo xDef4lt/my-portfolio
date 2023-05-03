@@ -85,6 +85,12 @@
     transition: all .6s;
 } 
 
+.more-projects {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
 .arrow-container > img {
     width: 100%;
     height: auto;
