@@ -135,7 +135,7 @@ h3 {
 
 .heading {
     text-align: center;
-    font-size: max(min(8vw, 55px), 20px);
+    font-size: max(min(8vw, 3em), 1.5em);
 }
 .sub-heading {
     background: var(--gradient-theme);
