@@ -22,6 +22,8 @@
 }
 .slider > article > p {
     text-align: center;
+    font-size: max(min(8vw, 1.8em), 1.3em);
+    padding: 5px;
 }
 
 .dev-icon {
