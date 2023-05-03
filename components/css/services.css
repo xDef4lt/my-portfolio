@@ -17,12 +17,11 @@
 
     transition: all .5s;
 }
-.slider:hover {
-    background: #222;
-}
 
 .slider > article {
     text-align: center;
+
+    flex-basis: 400px;
     
     max-width: 450px;
     min-width: 300px;
@@ -30,6 +29,10 @@
     margin: auto;
     padding: 3px;
 }
+.slider > article:hover {
+    background: #222;
+}
+
 .slider > article > h3 {
     font-size: max(min(8vw, 3em), 1.5em);
 }
