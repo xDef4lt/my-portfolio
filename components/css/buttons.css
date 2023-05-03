@@ -101,7 +101,8 @@
     flex-direction: row;
     gap: 10px;
 
-    width: fit-content;
+    min-width: fit-content;
+    max-width: 350px;
 
     transform: translate(-50%, -50%);
 }
