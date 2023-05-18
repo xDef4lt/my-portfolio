@@ -12,8 +12,6 @@ header {
 }
 header.class-oculto {
     display: none;
-
-    transform: translateY(-100px);
 }
 header.classe-aparece{
     display:flex;
