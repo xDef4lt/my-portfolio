@@ -24,11 +24,13 @@ header {
 header.classe-oculto{
     display: none;
     transform: translateY(-100px);
+    transition: all 1s;
 }
 
 header.classe-aparece{
     display:flex;
     backdrop-filter: blur(5px);
+    transition: all 1s;
 
     border-bottom: 2px solid transparent;
     border-image: var(--gradient-theme) 10;
