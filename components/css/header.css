@@ -1,4 +1,4 @@
-header {
+header.class-oculto {
     width: 100%;
     height: 80px;
 
@@ -6,9 +6,7 @@ header {
     z-index: 200;
     transition: height .3s;
 
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
+    display: none;
 
     transition: all 1s;
 
@@ -56,13 +54,11 @@ header {
     width: 100%;
 }
 
-
-.classe-oculto{
-    display: none;
-}
-
 .classe-aparece{
     display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    
     backdrop-filter: blur(5px);
 
     border-bottom: 2px solid transparent;
