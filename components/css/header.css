@@ -4,11 +4,10 @@ header {
 
     position: fixed;
     z-index: 200;
+    transition: all 1s;
 }
 header.class-oculto {
     display: none;
-
-    transition: all 1s;
 
     transform: translateY(-100px);
 }
@@ -23,6 +22,7 @@ header.classe-aparece{
     border-image: var(--gradient-theme) 10;
 
     box-shadow: 6px 8px 10px #00000095;
+    
     transform: translateY(0);
 }
 
