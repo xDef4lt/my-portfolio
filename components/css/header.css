@@ -15,18 +15,18 @@ header {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    
+
     transform: translateY(0);
 
     /**box-shadow: 6px 8px 10px #00000095;**/
 
 }
-.classe-oculto{
+header.classe-oculto{
     display: none;
     transform: translateY(-100px);
 }
 
-.classe-aparece{
+header.classe-aparece{
     display:flex;
     backdrop-filter: blur(5px);
 
