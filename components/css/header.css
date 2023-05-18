@@ -2,12 +2,6 @@ header {
     width: 100%;
     height: 80px;
 
-    /**background-color: #00000060;
-    backdrop-filter: blur(5px);
-
-    border-bottom: 2px solid transparent;
-    border-image: var(--gradient-theme) 10;**/
-
     position: fixed;
     z-index: 200;
     transition: height .3s;
@@ -18,8 +12,7 @@ header {
 
     transition: all 1s;
 
-    /**box-shadow: 6px 8px 10px #00000095;**/
-
+    transform: translateY(-100px);
 }
 
 .menu-wrap {    
@@ -66,7 +59,6 @@ header {
 
 .classe-oculto{
     display: none;
-    transform: translateY(-100px);
 }
 
 .classe-aparece{
