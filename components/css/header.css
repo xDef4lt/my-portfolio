@@ -2,9 +2,7 @@ header {
     width: 100%;
     height: 80px;
 
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
+    display: none;
 
     position: fixed;
     z-index: 200;
@@ -17,6 +15,8 @@ header.class-oculto {
 }
 header.classe-aparece{
     display:flex;
+    justify-content: flex-start;
+    align-items: center;
 
     backdrop-filter: blur(5px);
 
