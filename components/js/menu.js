@@ -38,8 +38,8 @@ window.addEventListener('scroll', function() {
     header.classList.remove('shown');
   } else if (currentScroll < lastScroll) {
 
-    header.classList.remove('shown');
-    header.classList.add('hidden');
+    header.classList.remove('hidden');
+    header.classList.add('shown');
   }
   if (currentScroll === 0) {
 
