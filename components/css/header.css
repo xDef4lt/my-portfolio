@@ -12,6 +12,19 @@ header.class-oculto {
 
     transform: translateY(-100px);
 }
+header.classe-aparece{
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    backdrop-filter: blur(5px);
+
+    border-bottom: 2px solid transparent;
+    border-image: var(--gradient-theme) 10;
+
+    box-shadow: 6px 8px 10px #00000095;
+    transform: translateY(0);
+}
 
 .menu-wrap {    
     color: var(--primary-color);
@@ -52,18 +65,4 @@ header.class-oculto {
 
 .menu-item > a:hover:before {
     width: 100%;
-}
-
-.classe-aparece{
-    display:flex;
-    justify-content: flex-start;
-    align-items: center;
-    
-    backdrop-filter: blur(5px);
-
-    border-bottom: 2px solid transparent;
-    border-image: var(--gradient-theme) 10;
-
-    box-shadow: 6px 8px 10px #00000095;
-    transform: translateY(0);
 }
