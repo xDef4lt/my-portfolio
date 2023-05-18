@@ -1,5 +1,6 @@
 header {
     width: 100%;
+    height: 80px;
 
     /**background-color: #00000060;
     backdrop-filter: blur(5px);
@@ -64,17 +65,17 @@ header {
 
 
 .classe-oculto{
-    height: 0;
+    display: none;
+    transform: translateY(-100px);
 }
 
 .classe-aparece{
     display:flex;
     backdrop-filter: blur(5px);
-    height: 80px;
 
     border-bottom: 2px solid transparent;
     border-image: var(--gradient-theme) 10;
 
     box-shadow: 6px 8px 10px #00000095;
-
+    transform: translateY(0);
 }
