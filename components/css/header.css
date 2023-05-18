@@ -10,27 +10,24 @@ header {
 
     position: fixed;
     z-index: 200;
-    transition: all 1s;
+    transition: height 1s;
 
     display: flex;
     justify-content: flex-start;
     align-items: center;
 
-    transform: translateY(0);
-
     /**box-shadow: 6px 8px 10px #00000095;**/
 
 }
-header.classe-oculto{
+header.hidden {
     display: none;
-    transform: translateY(-100px);
-    transition: all 1s;
+    height: 0;
 }
 
-header.classe-aparece{
+header.shown {
+    height: 80px;
     display:flex;
     backdrop-filter: blur(5px);
-    transition: all 1s;
 
     border-bottom: 2px solid transparent;
     border-image: var(--gradient-theme) 10;

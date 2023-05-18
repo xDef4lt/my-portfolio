@@ -69,5 +69,3 @@ for (let i = 0; i < cardIcons.length; i++) {
     icons[i].src = defaultIcons[i];
   });
 }
-
-
